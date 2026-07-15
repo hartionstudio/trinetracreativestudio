@@ -1,1 +1,1 @@
-# harshrathorestudio.github.io
+# trinetraadvstudio.com
