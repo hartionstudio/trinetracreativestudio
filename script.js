@@ -288,3 +288,39 @@ nav.classList.remove("active");
 });
 
 });
+// =========================
+// PREMIUM MOBILE MENU
+// =========================
+
+const menuToggle = document.getElementById("menu-toggle");
+const mobileMenu = document.getElementById("mobile-menu");
+const closeBtn = document.getElementById("close-btn");
+const mobileLinks = document.querySelectorAll(".mobile-nav a");
+
+// Open Menu
+menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+    document.body.style.overflow = "hidden";
+});
+
+// Close Menu
+closeBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+    document.body.style.overflow = "auto";
+});
+
+// Close menu after clicking a link
+mobileLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+        document.body.style.overflow = "auto";
+    });
+});
+
+// Close menu with ESC key
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+        mobileMenu.classList.remove("active");
+        document.body.style.overflow = "auto";
+    }
+});
