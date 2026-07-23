@@ -2,46 +2,79 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYCP8NC3FR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-CYCP8NC3FR');
-</script>
-<meta name="description" content="Hartion Studio is a creative agency in Jaipur offering branding, graphic design, video editing, website development, social media management and digital marketing services.">
-<meta charset="UTF-8">
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Hartion Studio | Creative Agency in Jaipur</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Hartion Studio is a premium creative agency in Jaipur providing Branding, Graphic Design, Photography, Videography, Video Editing, Website Development, Digital Marketing and 3D Visualization.">
+
+    <meta name="keywords" content="Hartion Studio, Creative Agency Jaipur, Branding, Graphic Design, Photography, Videography, Video Editing, Website Development, Digital Marketing, 3D Visualization">
+
     <meta name="author" content="Hartion Studio">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="Hartion Studio, Creative Agency Jaipur, Graphic Design, Branding, Video Editing, Website Development, Digital Marketing">
-<title>Hartion Studio | Branding, Graphic Design & Video Production</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-<link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<meta property="og:title" content="Hartion Studio">
-<meta property="og:description" content="Branding, Graphic Design, Video Production, Web Development & Digital Marketing.">
-<meta property="og:url" content="https://hartionstudio.com">
-<meta property="og:type" content="website">
+    <!-- Canonical -->
     <link rel="canonical" href="https://hartionstudio.com">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Hartion Studio">
+
+    <meta property="og:description" content="Premium Creative Agency">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="https://hartionstudio.com">
+
+    <meta property="og:image" content="https://hartionstudio.com/logo.png">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0b0b0b">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYCP8NC3FR"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CYCP8NC3FR');
+    </script>
+
+    <!-- Organization Schema -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Hartion Studio",
-  "url": "https://hartionstudio.com",
-  "logo": "https://hartionstudio.com/logo.png",
-  "description": "Hartion Studio is a creative agency in Jaipur offering branding, graphic design, video editing, website development, social media management and digital marketing services.",
-  "email": "hartionstudio@gmail.com",
-  "sameAs": [
-  "https://www.instagram.com/hartionstudio.in",
-  "https://www.youtube.com/@hartionstudio",
-  "https://www.linkedin.com/company/USERNAME"
-]
-}
-</script>
+    {
+      "@context":"https://schema.org",
+      "@type":"Organization",
+      "name":"Hartion Studio",
+      "url":"https://hartionstudio.com",
+      "logo":"https://hartionstudio.com/logo.png",
+      "email":"hartionstudio@gmail.com",
+      "sameAs":[
+        "https://www.instagram.com/hartionstudio.in",
+        "https://www.youtube.com/@hartionstudio"
+      ]
+    }
+    </script>
+
 </head>
 
 <body>
@@ -62,32 +95,48 @@
 
 <div class="mouse-glow"></div>
 <!-- ================= HEADER ================= -->
+<header class="header" id="header">
 
-<!-- ================= HEADER ================= -->
+    <div class="container nav-container">
 
-<header id="header">
-
-    <div class="logo">
-        <a href="#home">
+        <!-- Logo -->
+        <a href="#" class="logo">
             <img src="logo.png" alt="Hartion Studio Logo">
             <span>Hartion Studio</span>
         </a>
-    </div>
 
-    <nav class="navbar">
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
 
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
 
-    </nav>
+            <a href="#contact" class="mobile-btn">
+                Let's Talk
+            </a>
 
-    <div class="menu-toggle" id="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
+        </nav>
+
+        <!-- Right Side -->
+        <div class="nav-right">
+
+            <a href="#contact" class="btn-primary">
+                Let's Talk
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
     </div>
 
 </header>
@@ -125,325 +174,680 @@
 
 <!-- ================= HERO ================= -->
 
-<section id="home" class="hero">
+<section class="hero" id="home">
+
+    <!-- Background Effects -->
+    <div class="hero-bg"></div>
+
+    <div class="gold-particles"></div>
 
     <div class="hero-overlay"></div>
 
-    <div class="hero-content">
+    <div class="container hero-container">
 
-        <h5>WELCOME TO HARTION STUDIO</h5>
+        <!-- Left Content -->
+        <div class="hero-content">
 
-        <h1 class="hero-title">
-            Turning Ideas Into
-            <span>Impactful Visual Stories</span>
-        </h1>
+            <span class="hero-tag">
+                Creative Agency • Jaipur
+            </span>
 
-        <p>
-            Branding • Content Creation • Photography • Videography •
-            Video Editing • Graphic Design • 3D Visualization •
-            Website Design & Development
-        </p>
+            <h1>
 
-        <div class="hero-buttons">
+                We Create
 
-            <a href="#portfolio" class="btn">
-                View Portfolio
-            </a>
+                <span>Powerful Brands</span>
 
-            <a href="#contact" class="btn btn-outline">
-                Get Started
-            </a>
+                That People Remember.
+
+            </h1>
+
+            <p>
+
+                Hartion Studio helps businesses grow through
+                Branding, Graphic Design, Photography,
+                Videography, Website Development,
+                Digital Marketing and Creative Content.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#portfolio" class="btn-primary">
+
+                    View Portfolio
+
+                </a>
+
+                <a href="#contact" class="btn-secondary">
+
+                    Get Started
+
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="stat">
+
+                    <h2>100+</h2>
+
+                    <p>Projects</p>
+
+                </div>
+
+                <div class="stat">
+
+                    <h2>50+</h2>
+
+                    <p>Clients</p>
+
+                </div>
+
+                <div class="stat">
+
+                    <h2>5★</h2>
+
+                    <p>Support</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="hero-image">
+
+            <div class="image-card">
+
+                <img src="hero.png"
+                     alt="Hartion Studio">
+
+            </div>
 
         </div>
 
     </div>
 
-    <div class="scroll-indicator">
+    <a href="#about" class="scroll-down">
+
         <span></span>
-    </div>
+
+    </a>
 
 </section>
 <!-- ================= ABOUT ================= -->
 
-<section id="about">
+<section class="about section" id="about">
 
-<div class="about-container">
+    <div class="container">
 
-<div class="about-image">
+        <div class="section-title">
 
-<img src="about.jpg" alt="About Hartion Studio">
+            <span>ABOUT US</span>
 
-</div>
+            <h2>Turning Ideas Into Powerful Digital Experiences</h2>
 
-<div class="about-content">
+            <p>
+                Hartion Studio is a premium creative agency dedicated to
+                helping brands grow with stunning visuals, creative strategy,
+                and modern digital solutions.
+            </p>
 
-<h5>ABOUT US</h5>
+        </div>
 
-<h2>
-Building Powerful Brands Through Creative Design.
-</h2>
+        <div class="about-wrapper">
 
-<p>
+            <!-- Left -->
 
-Hartion Studio is a creative agency based in Jaipur, India, delivering premium branding, graphic design, content creation, photography, videography, video editing, 3D visualization, and website design & development.
+            <div class="about-image">
 
-We help businesses, startups and creators build a strong digital presence with creative ideas, modern design and high-quality visual content that drives real results.
+                <img src="about.jpg" alt="About Hartion Studio">
 
-</p>
+            </div>
 
-<div class="about-features">
+            <!-- Right -->
 
-<div>✔ Creative Branding</div>
+            <div class="about-content">
 
-<div>✔ Premium Quality</div>
+                <h3>
+                    Creativity Meets Strategy.
+                </h3>
 
-<div>✔ Fast Delivery</div>
+                <p>
 
-<div>✔ Client Satisfaction</div>
+                    We don't just design beautiful graphics—we build
+                    memorable brand identities that connect with people.
+                    Every project is planned with creativity,
+                    business goals and user experience in mind.
 
-</div>
+                </p>
 
-<a href="#portfolio" class="btn">
+                <div class="about-grid">
 
-View Our Work
+                    <div class="about-card">
 
-</a>
+                        <h4>Branding</h4>
 
-</div>
+                        <p>Unique visual identity for modern businesses.</p>
 
-</div>
+                    </div>
+
+                    <div class="about-card">
+
+                        <h4>Creative Design</h4>
+
+                        <p>Premium graphics for digital and print media.</p>
+
+                    </div>
+
+                    <div class="about-card">
+
+                        <h4>Content Creation</h4>
+
+                        <p>Photography, reels and promotional videos.</p>
+
+                    </div>
+
+                    <div class="about-card">
+
+                        <h4>Development</h4>
+
+                        <p>Fast, responsive and SEO friendly websites.</p>
+
+                    </div>
+
+                </div>
+
+                <a href="#contact" class="btn-primary">
+
+                    Work With Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
 <!-- ================= SERVICES ================= -->
 
-<section id="services">
+<section class="services section" id="services">
 
-<div class="section-title">
+    <div class="container">
 
-<h5>OUR SERVICES</h5>
+        <div class="section-title">
 
-<h2>Our Creative Services</h2>
+            <span>OUR SERVICES</span>
 
-<p>
-
-Professional creative solutions designed to help businesses grow and stand out online.
-
-</p>
-
-</div>
-
-<div class="services-container">
-
-<div class="service-card">
-
-<div class="service-icon">🎥</div>
-
-<h3>Content Creation</h3>
-
-<p>
-
-Professional reels, advertisements, promotional videos and social media content.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">📷</div>
-
-<h3>Photography</h3>
-
-<p>
-
-Product, commercial, fashion, corporate and portrait photography.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">🎬</div>
-
-<h3>Video Editing</h3>
-
-<p>
-
-Cinematic editing, color grading, motion graphics and promotional videos.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">🎨</div>
-
-<h3>Graphic Design</h3>
-
-<p>
-
-Brand identity, logos, posters, brochures, packaging and social media creatives.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">🏠</div>
-
-<h3>3D Visualization</h3>
-
-<p>
-
-Interior design, exterior visualization, product rendering and architectural walkthroughs.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">🌐</div>
-
-<h3>Website Design & Development</h3>
-
-<p>
-
-Modern, responsive and SEO-friendly websites built for businesses, brands and creators.
-
-</p>
-
-</div>
-
-</div>
-
-</section>
-  <!-- ================= PORTFOLIO ================= -->
-<!-- ================= PORTFOLIO ================= -->
-
-<section id="portfolio">
-
-    <div class="section-title">
-
-        <h5>OUR PORTFOLIO</h5>
-
-        <h2>Our Featured Projects</h2>
-
-        <p>
-            Explore a collection of our creative work, crafted to help brands stand out with impactful visuals and innovative storytelling.
-        </p>
-
-    </div>
-
-    <!-- Featured Project -->
-
-    <div class="featured-project">
-
-        <img src="portfolio1.jpg" alt="Featured Content Creation Project">
-
-        <div class="featured-content">
-
-            <span>FEATURED PROJECT</span>
-
-            <h2>Creative Brand Content</h2>
+            <h2>Everything Your Brand Needs</h2>
 
             <p>
-                Professional brand films, commercial advertisements, social media campaigns and high-quality promotional content designed to increase engagement and brand awareness.
+
+                We combine creativity, technology and strategy to
+                help your business stand out.
+
             </p>
 
-            <a href="#contact" class="btn">Start Your Project</a>
-
         </div>
 
-    </div>
+        <div class="services-grid">
 
-    <!-- Portfolio Grid -->
+            <div class="service-card">
 
-    <div class="portfolio-grid">
-
-        <div class="portfolio-card">
-
-            <img src="portfolio2.jpg" alt="Photography Portfolio">
-
-            <div class="portfolio-overlay">
-
-                <h3>Photography</h3>
-
-                <p>Commercial • Product • Portrait</p>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="portfolio3.jpg" alt="Video Editing Portfolio">
-
-            <div class="portfolio-overlay">
-
-                <h3>Video Editing</h3>
-
-                <p>Cinematic • Reels • Advertisements</p>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="portfolio4.jpg" alt="Graphic Design Portfolio">
-
-            <div class="portfolio-overlay">
-
-                <h3>Graphic Design</h3>
-
-                <p>Branding • Posters • Social Media</p>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="portfolio5.jpg" alt="3D Visualization Portfolio">
-
-            <div class="portfolio-overlay">
-
-                <h3>3D Visualization</h3>
-
-                <p>Interior • Exterior • Product Rendering</p>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="portfolio6.jpg" alt="Website Design Portfolio">
-
-            <div class="portfolio-overlay">
-
-                <h3>Website Design & Development</h3>
-
-                <p>Responsive • Modern • SEO Optimized</p>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="portfolio7.jpg" alt="Brand Identity Portfolio">
-
-            <div class="portfolio-overlay">
+                <div class="service-icon">🎨</div>
 
                 <h3>Brand Identity</h3>
 
-                <p>Logo • Brand Guidelines • Visual Identity</p>
+                <p>
+                    Logo, Brand Guidelines,
+                    Business Stationery and Visual Identity.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">📸</div>
+
+                <h3>Photography</h3>
+
+                <p>
+                    Product, Fashion,
+                    Commercial and Event Photography.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">🎥</div>
+
+                <h3>Videography</h3>
+
+                <p>
+                    Promotional Films,
+                    Reels, Social Media Videos
+                    and Cinematic Shoots.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">💻</div>
+
+                <h3>Website Development</h3>
+
+                <p>
+                    Responsive,
+                    Fast and Modern Websites
+                    for Every Business.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">📈</div>
+
+                <h3>Digital Marketing</h3>
+
+                <p>
+
+                    SEO,
+                    Social Media Marketing,
+                    Performance Campaigns.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">✨</div>
+
+                <h3>Creative Content</h3>
+
+                <p>
+
+                    Social Media Posts,
+                    Motion Graphics,
+                    Ad Creatives and Branding.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= PORTFOLIO ================= -->
+
+<section class="portfolio section" id="portfolio">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>OUR PORTFOLIO</span>
+
+            <h2>Our Latest Creative Work</h2>
+
+            <p>
+                We transform ideas into impactful visuals, memorable brands,
+                and engaging digital experiences.
+            </p>
+
+        </div>
+
+        <!-- Portfolio Filter -->
+
+        <div class="portfolio-filter">
+
+            <button class="active" data-filter="all">All</button>
+
+            <button data-filter="branding">Branding</button>
+
+            <button data-filter="graphics">Graphics</button>
+
+            <button data-filter="photo">Photography</button>
+
+            <button data-filter="video">Videography</button>
+
+            <button data-filter="web">Web Design</button>
+
+        </div>
+
+        <!-- Portfolio Grid -->
+
+        <div class="portfolio-grid">
+
+            <!-- Project 1 -->
+
+            <div class="portfolio-item branding">
+
+                <img src="portfolio1.jpg" alt="Brand Identity">
+
+                <div class="portfolio-overlay">
+
+                    <span>Branding</span>
+
+                    <h3>Luxury Brand Identity</h3>
+
+                    <a href="#" class="portfolio-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="portfolio-item graphics">
+
+                <img src="portfolio2.jpg" alt="Graphic Design">
+
+                <div class="portfolio-overlay">
+
+                    <span>Graphic Design</span>
+
+                    <h3>Social Media Campaign</h3>
+
+                    <a href="#" class="portfolio-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="portfolio-item photo">
+
+                <img src="portfolio3.jpg" alt="Photography">
+
+                <div class="portfolio-overlay">
+
+                    <span>Photography</span>
+
+                    <h3>Commercial Photoshoot</h3>
+
+                    <a href="#" class="portfolio-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 4 -->
+
+            <div class="portfolio-item video">
+
+                <img src="portfolio4.jpg" alt="Videography">
+
+                <div class="portfolio-overlay">
+
+                    <span>Videography</span>
+
+                    <h3>Brand Promotional Film</h3>
+
+                    <a href="#" class="portfolio-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 5 -->
+
+            <div class="portfolio-item web">
+
+                <img src="portfolio5.jpg" alt="Website Design">
+
+                <div class="portfolio-overlay">
+
+                    <span>Web Design</span>
+
+                    <h3>Business Website</h3>
+
+                    <a href="#" class="portfolio-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 6 -->
+
+            <div class="portfolio-item branding">
+
+                <img src="portfolio6.jpg" alt="Creative Project">
+
+                <div class="portfolio-overlay">
+
+                    <span>Creative</span>
+
+                    <h3>Complete Brand Package</h3>
+
+                    <a href="#" class="portfolio-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-bottom">
+
+            <a href="#contact" class="btn-primary">
+
+                Start Your Project
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="why-us section" id="why-us">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>WHY CHOOSE US</span>
+
+            <h2>Why Brands Choose Hartion Studio</h2>
+
+            <p>
+                We create premium digital experiences with creativity,
+                quality, innovation and long-term support.
+            </p>
+
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <div class="why-number">01</div>
+
+                <h3>Creative Strategy</h3>
+
+                <p>
+                    Every project begins with research and planning,
+                    ensuring every design has a purpose.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-number">02</div>
+
+                <h3>Premium Quality</h3>
+
+                <p>
+                    We focus on clean, modern and luxury designs that
+                    leave a lasting impression.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-number">03</div>
+
+                <h3>Fast Delivery</h3>
+
+                <p>
+                    Timely execution without compromising quality or
+                    attention to detail.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-number">04</div>
+
+                <h3>Complete Solutions</h3>
+
+                <p>
+                    From branding and content creation to websites and
+                    marketing, everything under one roof.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-number">05</div>
+
+                <h3>Latest Technology</h3>
+
+                <p>
+                    We use modern tools and AI-powered workflows to
+                    deliver faster and smarter results.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-number">06</div>
+
+                <h3>Long-Term Support</h3>
+
+                <p>
+                    Our relationship doesn't end after delivery—we're
+                    here to support your business as it grows.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <section class="process section" id="process">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>OUR PROCESS</span>
+
+            <h2>From Idea to Reality</h2>
+
+            <p>
+                Our simple and transparent workflow ensures every project
+                is delivered with creativity, precision and quality.
+            </p>
+
+        </div>
+
+        <div class="process-timeline">
+
+            <!-- Step 1 -->
+
+            <div class="process-card">
+
+                <div class="step-number">01</div>
+
+                <h3>Discovery</h3>
+
+                <p>
+                    We understand your business,
+                    goals and target audience.
+                </p>
+
+            </div>
+
+            <!-- Step 2 -->
+
+            <div class="process-card">
+
+                <div class="step-number">02</div>
+
+                <h3>Planning</h3>
+
+                <p>
+                    Research, strategy and creative
+                    planning before execution.
+                </p>
+
+            </div>
+
+            <!-- Step 3 -->
+
+            <div class="process-card">
+
+                <div class="step-number">03</div>
+
+                <h3>Design & Development</h3>
+
+                <p>
+                    Creating premium visuals,
+                    content and digital experiences.
+                </p>
+
+            </div>
+
+            <!-- Step 4 -->
+
+            <div class="process-card">
+
+                <div class="step-number">04</div>
+
+                <h3>Review</h3>
+
+                <p>
+                    Revisions and quality checks
+                    to achieve perfection.
+                </p>
+
+            </div>
+
+            <!-- Step 5 -->
+
+            <div class="process-card">
+
+                <div class="step-number">05</div>
+
+                <h3>Launch</h3>
+
+                <p>
+                    Final delivery with complete
+                    support and guidance.
+                </p>
 
             </div>
 
@@ -453,8 +857,78 @@ Modern, responsive and SEO-friendly websites built for businesses, brands and cr
 
 </section>
 
-<!-- ================= STATS ================= -->
+    <section class="counter section" id="counter">
 
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>OUR ACHIEVEMENTS</span>
+
+            <h2>Numbers That Reflect Our Journey</h2>
+
+            <p>
+                We believe in building long-term relationships through
+                creativity, quality and trust.
+            </p>
+
+        </div>
+
+        <div class="counter-grid">
+
+            <!-- Counter 1 -->
+
+            <div class="counter-card">
+
+                <h2 class="count" data-target="100">0</h2>
+
+                <span>+</span>
+
+                <p>Projects Completed</p>
+
+            </div>
+
+            <!-- Counter 2 -->
+
+            <div class="counter-card">
+
+                <h2 class="count" data-target="50">0</h2>
+
+                <span>+</span>
+
+                <p>Happy Clients</p>
+
+            </div>
+
+            <!-- Counter 3 -->
+
+            <div class="counter-card">
+
+                <h2 class="count" data-target="5">0</h2>
+
+                <span>+</span>
+
+                <p>Years of Experience</p>
+
+            </div>
+
+            <!-- Counter 4 -->
+
+            <div class="counter-card">
+
+                <h2 class="count" data-target="24">0</h2>
+
+                <span>/7</span>
+
+                <p>Client Support</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!-- ================= STATS ================= -->
 
 <section id="stats">
@@ -487,115 +961,575 @@ Modern, responsive and SEO-friendly websites built for businesses, brands and cr
 
 <!-- ================= TESTIMONIALS ================= -->
 
-<section id="testimonials">
+<section class="testimonials section" id="testimonials">
 
-    <div class="section-title">
-        <h5>CLIENT TESTIMONIALS</h5>
-        <h2>What Our Clients Say</h2>
-        <p>
-            We believe every successful project starts with trust, creativity and quality.
-        </p>
-    </div>
+    <div class="container">
 
-    <div class="testimonial-card">
+        <div class="section-title">
 
-        <p>
-            "Hartion Studio exceeded our expectations with outstanding creativity,
-            professional communication and timely delivery. The final result helped
-            strengthen our brand identity and online presence."
-        </p>
+            <span>CLIENT TESTIMONIALS</span>
 
-        <h4>— Happy Client</h4>
+            <h2>What Our Clients Say</h2>
+
+            <p>
+                Building long-term relationships through creativity,
+                trust and outstanding results.
+            </p>
+
+        </div>
+
+        <div class="testimonial-slider">
+
+            <!-- Testimonial 1 -->
+
+            <div class="testimonial-card active">
+
+                <div class="stars">
+
+                    ★★★★★
+
+                </div>
+
+                <p class="review">
+
+                    "Hartion Studio transformed our brand identity.
+                    Their creativity, professionalism and attention
+                    to detail exceeded our expectations."
+
+                </p>
+
+                <div class="client">
+
+                    <img src="client1.jpg" alt="Client">
+
+                    <div>
+
+                        <h4>Rahul Sharma</h4>
+
+                        <span>Business Owner</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Testimonial 2 -->
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+
+                    ★★★★★
+
+                </div>
+
+                <p class="review">
+
+                    "The promotional videos and social media content
+                    helped us increase customer engagement and build
+                    a stronger online presence."
+
+                </p>
+
+                <div class="client">
+
+                    <img src="client2.jpg" alt="Client">
+
+                    <div>
+
+                        <h4>Priya Mehta</h4>
+
+                        <span>Fashion Brand</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Testimonial 3 -->
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+
+                    ★★★★★
+
+                </div>
+
+                <p class="review">
+
+                    "Professional, creative and always on time.
+                    Working with Hartion Studio was an excellent
+                    experience from start to finish."
+
+                </p>
+
+                <div class="client">
+
+                    <img src="client3.jpg" alt="Client">
+
+                    <div>
+
+                        <h4>Amit Verma</h4>
+
+                        <span>Startup Founder</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slider Navigation -->
+
+        <div class="testimonial-controls">
+
+            <button class="prev-testimonial">
+                &#10094;
+            </button>
+
+            <button class="next-testimonial">
+                &#10095;
+            </button>
+
+        </div>
 
     </div>
 
 </section>
+<section class="faq section" id="faq">
 
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>FAQ</span>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <p>
+                Find answers to the most common questions about our
+                creative services and workflow.
+            </p>
+
+        </div>
+
+        <div class="faq-container">
+
+            <!-- FAQ 1 -->
+
+            <div class="faq-item active">
+
+                <button class="faq-question">
+
+                    <span>What services does Hartion Studio provide?</span>
+
+                    <i class="faq-icon">+</i>
+
+                </button>
+
+                <div class="faq-answer">
+
+                    <p>
+                        We provide Branding, Graphic Design,
+                        Photography, Videography, Website Development,
+                        Digital Marketing and Creative Content.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 2 -->
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>How long does a project take?</span>
+
+                    <i class="faq-icon">+</i>
+
+                </button>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Project timelines depend on the scope of work.
+                        Small projects usually take a few days, while
+                        larger branding or website projects may take
+                        several weeks.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 3 -->
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>Do you work with businesses outside Jaipur?</span>
+
+                    <i class="faq-icon">+</i>
+
+                </button>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Yes. We work with clients across India and
+                        remotely for businesses worldwide.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 4 -->
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>Can I request revisions?</span>
+
+                    <i class="faq-icon">+</i>
+
+                </button>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Yes. Revisions are included according to the
+                        agreed project scope to ensure complete client
+                        satisfaction.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 5 -->
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+
+                    <span>How can I start a project?</span>
+
+                    <i class="faq-icon">+</i>
+
+                </button>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Simply contact us through the Contact section,
+                        email or WhatsApp, and we'll discuss your
+                        requirements before starting.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!-- ================= CONTACT ================= -->
 
-<section id="contact">
+<section class="contact section" id="contact">
 
-    <div class="section-title">
-        <h5>CONTACT US</h5>
-        <h2>Let's Build Something Amazing Together</h2>
-        <p>
-            Have a project in mind? We'd love to hear your ideas and help bring them to life.
-        </p>
-    </div>
+    <div class="container">
 
-    <div class="contact-container">
+        <div class="section-title">
 
-        <div class="contact-card">
-            <h3>📍 Location</h3>
-            <p>Jaipur, Rajasthan, India</p>
-        </div>
+            <span>CONTACT US</span>
 
-        <div class="contact-card">
-            <h3>📞 Phone</h3>
+            <h2>Let's Build Something Amazing</h2>
+
             <p>
-                <a href="https://wa.me/919783130179"
-   class="btn whatsapp-btn"
-   target="_blank"
-   rel="noopener noreferrer">
-                </a>
+                Have an idea or project? Get in touch with Hartion Studio
+                and let's create something extraordinary together.
             </p>
+
         </div>
 
-        <div class="contact-card">
-            <h3>📧 Email</h3>
-            <p>
-                <a href="mailto:hartionstudio@gmail.com">
-                    hartionstudio@gmail.com
-                </a>
-            </p>
+        <div class="contact-wrapper">
+
+            <!-- Left -->
+
+            <div class="contact-info">
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">📍</div>
+
+                    <div>
+
+                        <h3>Office</h3>
+
+                        <p>Jaipur, Rajasthan, India</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">📞</div>
+
+                    <div>
+
+                        <h3>Phone</h3>
+
+                        <a href="tel:+919783130179">
+                            +91 97831 30179
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">📧</div>
+
+                    <div>
+
+                        <h3>Email</h3>
+
+                        <a href="mailto:hartionstudio@gmail.com">
+                            hartionstudio@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">💬</div>
+
+                    <div>
+
+                        <h3>WhatsApp</h3>
+
+                        <a href="https://wa.me/919783130179" target="_blank">
+                            Chat With Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="contact-form">
+
+                <form>
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        required
+                    >
+
+                    <input
+                        type="tel"
+                        placeholder="Phone Number"
+                    >
+
+                    <input
+                        type="text"
+                        placeholder="Subject"
+                    >
+
+                    <textarea
+                        rows="6"
+                        placeholder="Tell us about your project..."
+                        required
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        class="btn-primary">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
         </div>
 
-        <div class="contact-card">
-            <h3>📷 Instagram</h3>
-            <p>
-                <a href="https://instagram.com/hartionstudio.in" target="_blank" rel="noopener noreferrer">
-                    @hartionstudio.in
-                </a>
-            </p>
-        </div>
-
-    </div>
-
-    <div style="text-align:center; margin-top:40px;">
-        <a href="https://wa.me/919783130179" class="btn" target="_blank" rel="noopener noreferrer">
-            Chat on WhatsApp
-        </a>
     </div>
 
 </section>
 
 <!-- ================= FOOTER ================= -->
 
-<footer>
+<footer class="footer">
 
-    <div class="footer-logo">
-        <img src="logo.png" alt="Hartion Studio Logo">
-        <h2>HARTION STUDIO</h2>
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <!-- Company -->
+
+            <div class="footer-column">
+
+                <img src="logo.png"
+                     alt="Hartion Studio Logo"
+                     class="footer-logo">
+
+                <p>
+
+                    Hartion Studio is a premium creative agency
+                    specializing in Branding, Graphic Design,
+                    Photography, Videography, Web Development
+                    and Digital Marketing.
+
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#services">Services</a></li>
+
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Services -->
+
+            <div class="footer-column">
+
+                <h3>Services</h3>
+
+                <ul>
+
+                    <li>Brand Identity</li>
+
+                    <li>Graphic Design</li>
+
+                    <li>Photography</li>
+
+                    <li>Videography</li>
+
+                    <li>Website Development</li>
+
+                    <li>Digital Marketing</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <p>📍 Jaipur, Rajasthan</p>
+
+                <p>
+
+                    <a href="tel:+919783130179">
+
+                        +91 97831 30179
+
+                    </a>
+
+                </p>
+
+                <p>
+
+                    <a href="mailto:hartionstudio@gmail.com">
+
+                        hartionstudio@gmail.com
+
+                    </a>
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#" aria-label="Instagram">Instagram</a>
+
+                    <a href="#" aria-label="YouTube">YouTube</a>
+
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Hartion Studio. All Rights Reserved.
+
+            </p>
+
+        </div>
+
     </div>
-
-    <p>
-        Creating premium visual experiences through creativity, storytelling, design and innovation.
-    </p>
-
-    <div style="margin:25px 0;">
-        <a href="https://instagram.com/hartionstudio.in" target="_blank" rel="noopener noreferrer">Instagram</a> |
-        <a href="https://youtube.com/@hartionstudio" target="_blank" rel="noopener noreferrer">YouTube</a> |
-        <a href="mailto:hartionstudio@gmail.com">Email</a>
-    </div>
-
-    <p>
-        © 2026 Hartion Studio. All Rights Reserved.
-    </p>
 
 </footer>
 
-<script src="script.js"></script>
+<!-- Back To Top -->
 
-</body>
+<button id="backToTop">
 
-</html>
+    ↑
+
+</button>
+
+<!-- Floating WhatsApp -->
+
+<a href="https://wa.me/919783130179"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="WhatsApp">
+
+    💬
+
+</a>
